@@ -4,12 +4,12 @@ Deadline: 2026-12-01 13:37 PST (itch.io submission + public repo). Voting ends 2
 
 ## In progress
 
-- [~] F-001 Pick the mechanic: one interpretation of SHIFT, one level, playable in week 1
+- [~] F-001 Week-one playable: Flip (see docs/design.md), three rooms, solver in tools/
 
 ## Open
 
 - [ ] F-002 Standalone shell: index.html + input handling without the HomeCore deck (gamekit vendored or stubbed)
-- [ ] F-003 First playable level
+- [ ] F-003 Six more rooms: each introduces one trick (ramp at another depth, pit-walkaround, double flip)
 - [ ] F-004 Title picture, help panel (F1), sound
 - [ ] F-005 itch.io page: zip upload, screenshots, AI disclosure text
 - [ ] F-006 Submit before the deadline; add the itch link to README
