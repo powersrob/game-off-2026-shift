@@ -102,4 +102,6 @@ function act(S, a) {
   return moved;
 }
 
+// Globals so a bundler (which gives each file its own scope) still shares them with main.js.
+if (typeof globalThis !== 'undefined') Object.assign(globalThis, { ROOMS, PARSED, newState, act });
 if (typeof module !== 'undefined') module.exports = { ROOMS, PARSED, newState, act };

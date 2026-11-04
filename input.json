@@ -1,0 +1,18 @@
+{
+  "cart": "flip",
+  "title": "FLIP",
+  "deadzone": 0.25,
+  "_note": "One room, two views: move with the stick or arrows, A or Space jumps in side view, either trigger or Shift flips the view, Start or R restarts the room.",
+  "actions": {
+    "move_up":    { "pad": ["lstick_up", "dpad_up"],       "keys": ["w", "arrow_up"],    "desc": "Move", "group": "move" },
+    "move_down":  { "pad": ["lstick_down", "dpad_down"],   "keys": ["s", "arrow_down"],  "desc": "Move", "group": "move" },
+    "move_left":  { "pad": ["lstick_left", "dpad_left"],   "keys": ["a", "arrow_left"],  "desc": "Move", "group": "move" },
+    "move_right": { "pad": ["lstick_right", "dpad_right"], "keys": ["d", "arrow_right"], "desc": "Move", "group": "move" },
+
+    "jump":    { "pad": ["a"],         "keys": ["space"], "desc": "Jump one up, one across (side view)", "group": "do" },
+    "flip":    { "pad": ["lt", "rt"],  "keys": ["shift"], "desc": "Flip between top-down and side view", "group": "do" },
+    "restart": { "pad": ["start"],     "keys": ["r"],     "desc": "Restart the room", "group": "do" },
+    "next":    { "pad": ["a"],         "keys": ["enter"], "desc": "Next room after the goal", "group": "do" },
+    "help":    { "keys": ["f1"],       "desc": "Help", "group": "do" }
+  }
+}

@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 2026-11-04
+
+### Boot wrapped in startFlip(canvas)
+- **Why**: so the author's private game deck can embed Flip and stop/re-boot it on one page
+- **Files**: src/main.js, src/rules.js, input.json
+- **Notes**: all state and listeners now live inside `startFlip`, which returns `{ stop, input, load, state, setPaused, toStart }`; index.html still auto-starts it. rules.js also attaches its exports to globalThis so a bundler can share them. input.json added for the deck's controller bindings. solve.mjs unchanged and passing.
+
 ## 2026-11-03
 
 ### [F-001][F-002] Week-one playable: Flip
