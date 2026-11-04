@@ -4,11 +4,11 @@ Deadline: 2026-12-01 13:37 PST (itch.io submission + public repo). Voting ends 2
 
 ## In progress
 
-- [~] F-001 Week-one playable: Flip (see docs/design.md), three rooms, solver in tools/
+- [x] F-001 Week-one playable: Flip (see docs/design.md), three rooms, solver in tools/
 
 ## Open
 
-- [ ] F-002 Standalone shell: index.html + input handling without the HomeCore deck (gamekit vendored or stubbed)
+- [x] F-002 Standalone shell: index.html + input handling without the HomeCore deck (no gamekit dependency)
 - [ ] F-003 Six more rooms: each introduces one trick (ramp at another depth, pit-walkaround, double flip)
 - [ ] F-004 Title picture, help panel (F1), sound
 - [ ] F-005 itch.io page: zip upload, screenshots, AI disclosure text
